@@ -2,6 +2,7 @@
 
 const sumar = require("./sumar")
 const restar = require("./restar")
+const mulltiplicar = require("./multiplicar")
 
 const process = require("process");
 
@@ -16,7 +17,7 @@ function calculadora(comando, a, b) {
             return restar(a, b)
             break;
         case "mulltiplicar":
-            
+           return mulltiplicar(a,b) 
             break;
         case "dividir":
             
