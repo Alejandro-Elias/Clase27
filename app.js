@@ -10,7 +10,7 @@ function calculadora(comando) {
             
             break;
         case "restar":
-            
+            return restar(a,b)
             break;
         case "mulltiplicar":
             
