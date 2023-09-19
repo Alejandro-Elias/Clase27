@@ -1,6 +1,7 @@
 // hacer el front de la calculadora
 
 const sumar = require("./sumar")
+const restar = require("./restar")
 
 const process = require("process");
 
@@ -12,7 +13,7 @@ function calculadora(comando, a, b) {
            return sumar(a,b)                        
             break;
         case "restar":
-            return restar(a,b)
+            return restar(a, b)
             break;
         case "mulltiplicar":
             
