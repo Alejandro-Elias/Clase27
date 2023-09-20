@@ -17,7 +17,7 @@ function calculadora(comando, a, b) {
         case "restar":
             return restar(a, b)
             break;
-        case "mulltiplicar":
+        case "multiplicar":
            return mulltiplicar(a,b) 
             break;
         case "dividir":
